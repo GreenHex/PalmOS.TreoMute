@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<ALERT_RESOURCE RESOURCE_ID="4010" COMMENT="Alert">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "TreoMute" </TITLE>
+		<MESSAGE> "^1\n^2\n^3" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="5010" COMMENT="Registration">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "TreoMute: Registration" </TITLE>
+		<MESSAGE>
+			"Purchase key from:\n^1\n\nYour HSSN is:\n^2\n\nEnter registration key:"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Cancel" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<APP_VERSION_RESOURCE RESOURCE_ID="1000">
+		<TEXT> "2.6" </TEXT>
+	</APP_VERSION_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="1000" COMMENT="HR">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 150 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1000_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<WIDTH> 150 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1000_X1_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="1100" COMMENT="VR">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 1 </WIDTH>
+				<HEIGHT> 40 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1100_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<WIDTH> 1 </WIDTH>
+				<HEIGHT> 40 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1100_X1_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<BITMAP_RESOURCE RESOURCE_ID="1200" COMMENT="Bottom HR">
+		<BITMAPS>
+			<BITMAP>
+				<WIDTH> 156 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 1 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1200_X1_1.bmp" </BITMAP_FILE>
+			</BITMAP>
+			<BITMAP>
+				<WIDTH> 156 </WIDTH>
+				<HEIGHT> 1 </HEIGHT>
+				<BIT_DEPTH> 8 </BIT_DEPTH>
+				<BITMAP_COMPRESSION> BEST </BITMAP_COMPRESSION>
+				<HAS_TRANSPARENCY> FALSE </HAS_TRANSPARENCY>
+				<HAS_COLOR_TABLE> FALSE </HAS_COLOR_TABLE>
+				<BITMAP_FILE> "Bitmap_1200_X1_8.bmp" </BITMAP_FILE>
+			</BITMAP>
+		</BITMAPS>
+	</BITMAP_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="1010" LOCALE="enUS" COMMENT="Main">
+		<FORM_ID> 1010 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 0 </LEFT>
+			<TOP> 0 </TOP>
+			<WIDTH> 160 </WIDTH>
+			<HEIGHT> 160 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> FALSE </MODAL>
+		<SAVE_BEHIND> TRUE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> TRUE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Preferences" </TEXT>
+			</FORM_TITLE>
+			<FORM_POPUP>
+				<CONTROL_ID> 1000 </CONTROL_ID>
+				<LIST_ID> 1001 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_BUTTON>
+				<ID> 1030 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 145 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Done" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_GRAFFITI_STATE>
+				<LOCATION>
+					<X> 151 </X>
+					<Y> 17 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+			<FORM_CHECKBOX>
+				<ID> 1040 </ID>
+				<BOUNDS>
+					<LEFT> 70 </LEFT>
+					<TOP> 1 </TOP>
+					<WIDTH> 89 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Enable TreoMute" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_LABEL>
+				<ID> 1000 </ID>
+				<LOCATION>
+					<X> 57 </X>
+					<Y> 145 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "TreoMute (c) 2007 MVK" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1002 </ID>
+				<LOCATION>
+					<X> 37 </X>
+					<Y> 145 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "v2.6" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 1004 </ID>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 57 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Def. Mute Interval:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1060 </ID>
+				<BOUNDS>
+					<LEFT> 86 </LEFT>
+					<TOP> 57 </TOP>
+					<WIDTH> 73 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Mute Interval" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST>
+				<ID> 1070 </ID>
+				<BOUNDS>
+					<LEFT> 100 </LEFT>
+					<TOP> 57 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 1 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "5 minutes" </TEXT>
+					<TEXT> "10 minutes" </TEXT>
+					<TEXT> "15 minutes" </TEXT>
+					<TEXT> "30 minutes" </TEXT>
+					<TEXT> "45 minutes" </TEXT>
+					<TEXT> "1 hour" </TEXT>
+					<TEXT> "1.5 hours" </TEXT>
+					<TEXT> "2 hours" </TEXT>
+					<TEXT> "3 hours" </TEXT>
+					<TEXT> "4 hours" </TEXT>
+					<TEXT> "6 hours" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 1060 </CONTROL_ID>
+				<LIST_ID> 1070 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 1001 </ID>
+				<LOCATION>
+					<X> 19 </X>
+					<Y> 29 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "+ Modifier Key:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1080 </ID>
+				<BOUNDS>
+					<LEFT> 83 </LEFT>
+					<TOP> 29 </TOP>
+					<WIDTH> 69 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Option Mask" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1080 </CONTROL_ID>
+				<LIST_ID> 1090 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST>
+				<ID> 1090 </ID>
+				<BOUNDS>
+					<LEFT> 97 </LEFT>
+					<TOP> 29 </TOP>
+					<WIDTH> 53 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 1 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "- None -" </TEXT>
+					<TEXT> "Shift" </TEXT>
+					<TEXT> "Option" </TEXT>
+					<TEXT> "Double Tap" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LABEL>
+				<ID> 1007 </ID>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 17 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Activation Key:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 1100 </ID>
+				<BOUNDS>
+					<LEFT> 71 </LEFT>
+					<TOP> 17 </TOP>
+					<WIDTH> 58 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Key Press" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1100 </CONTROL_ID>
+				<LIST_ID> 1110 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST>
+				<ID> 1110 </ID>
+				<BOUNDS>
+					<LEFT> 85 </LEFT>
+					<TOP> 17 </TOP>
+					<WIDTH> 65 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 1 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "- None -" </TEXT>
+					<TEXT> "5-Way Up" </TEXT>
+					<TEXT> "5-way Down" </TEXT>
+					<TEXT> "5-Way Left" </TEXT>
+					<TEXT> "5-Way Right" </TEXT>
+					<TEXT> "5-Way Center" </TEXT>
+					<TEXT> "Launch" </TEXT>
+					<TEXT> "Menu" </TEXT>
+					<TEXT> "Calendar" </TEXT>
+					<TEXT> "Messaging" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_CHECKBOX>
+				<ID> 1115 </ID>
+				<BOUNDS>
+					<LEFT> 7 </LEFT>
+					<TOP> 43 </TOP>
+					<WIDTH> 138 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Display Time Selection Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1180 </ID>
+				<BOUNDS>
+					<LEFT> 7 </LEFT>
+					<TOP> 127 </TOP>
+					<WIDTH> 95 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Beep Confirmation" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON>
+				<ID> 1050 </ID>
+				<BOUNDS>
+					<LEFT> 115 </LEFT>
+					<TOP> 126 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> FALSE </ENABLED>
+				<TEXT> "Register" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_CHECKBOX>
+				<ID> 1190 </ID>
+				<BOUNDS>
+					<LEFT> 7 </LEFT>
+					<TOP> 113 </TOP>
+					<WIDTH> 119 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Vibrate ON When Muted" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1150 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 73 </TOP>
+					<WIDTH> 44 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Phone" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1160 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 85 </TOP>
+					<WIDTH> 62 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Messaging" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1170 </ID>
+				<BOUNDS>
+					<LEFT> 92 </LEFT>
+					<TOP> 97 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Calendar" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1120 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 73 </TOP>
+					<WIDTH> 51 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "System" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1130 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 85 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Alarm" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX>
+				<ID> 1140 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 97 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Game" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_LABEL>
+				<ID> 1012 </ID>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 73 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<TEXT> "Mute:" </TEXT>
+			</FORM_LABEL>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 71 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1000 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 71 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1100 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 110 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1000 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 154 </X>
+					<Y> 71 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1100 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_BITMAP>
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 2 </X>
+					<Y> 140 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1200 </BITMAP_ID>
+			</FORM_BITMAP>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2000" COMMENT="PopUp">
+		<FORM_ID> 2000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 47 </LEFT>
+			<TOP> 31 </TOP>
+			<WIDTH> 66 </WIDTH>
+			<HEIGHT> 98 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> TRUE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2020 </DEFAULT_BUTTON>
+		<TITLE_ICON> FALSE </TITLE_ICON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "TreoMute" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON>
+				<ID> 2020 </ID>
+				<BOUNDS>
+					<LEFT> 38 </LEFT>
+					<TOP> 86 </TOP>
+					<WIDTH> 28 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LIST>
+				<ID> 2010 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 56 </WIDTH>
+					<HEIGHT> 55 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 5 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "5 minutes" </TEXT>
+					<TEXT> "10 minutes" </TEXT>
+					<TEXT> "15 minutes" </TEXT>
+					<TEXT> "30 minutes" </TEXT>
+					<TEXT> "45 minutes" </TEXT>
+					<TEXT> "1 hour" </TEXT>
+					<TEXT> "1.5 hours" </TEXT>
+					<TEXT> "2 hours" </TEXT>
+					<TEXT> "3 hours" </TEXT>
+					<TEXT> "4 hours" </TEXT>
+					<TEXT> "6 hours" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_PUSH_BUTTON>
+				<ID> 2030 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 80 </TOP>
+					<WIDTH> 56 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Vibrate ON" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_CHECKBOX>
+				<ID> 2040 </ID>
+				<BOUNDS>
+					<LEFT> 1 </LEFT>
+					<TOP> 88 </TOP>
+					<WIDTH> 60 </WIDTH>
+					<HEIGHT> 9 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Exit State" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>
